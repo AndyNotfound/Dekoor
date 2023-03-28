@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>Dekoor</title>
   </head>
@@ -175,7 +185,26 @@
         <!-- End of Categories Section | #categories -->
       </section>
 
-      <section id="trending"></section>
+      <section id="products" class="products">
+        <div class="productsHeader">
+          <div class="productsArticle">
+            <h2 class="productsTitle paragraph"><span class="mobile">Categories</span><span class="desktop">OUR PRODUCTS</span></h2>
+            <p class="productsSubtitle">This month’s best seller</p>
+          </div>
+          <button class="primaryButton productsButton">SEE MORE</button>
+        </div>
+        <div class="productsContainer">
+          <div class="productsList" data-js="productslist"></div>
+          <div class="productsNavigation">
+            <button class="productsNavigationIcon" data-js="product-prev-btn">
+              <img src="./assets/product-arrow-left.svg" alt="" />
+            </button>
+            <button class="productsNavigationIcon" data-js="product-next-btn">
+              <img src="./assets/product-arrow-right.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </section>
 
       <section id="emailsub" class="emailsub">
         <!-- Start of Email Subscription Section | #email sub -->
@@ -206,28 +235,32 @@
       </div>
       <div class="footerLinksGroup">
         <div class="footerLink">
-            <p>Support</p>
-            <a href="#">FAQ</a>
-            <a href="#">Shipping & Returns</a>
-            <a href="#">Care guide</a>
-            <a href="#">Redeem warranty</a>
+          <p>Support</p>
+          <a href="#">FAQ</a>
+          <a href="#">Shipping & Returns</a>
+          <a href="#">Care guide</a>
+          <a href="#">Redeem warranty</a>
         </div>
         <div class="footerLink">
-            <p>Social Media</p>
-            <a href="#">Instagram</a>
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">TikTok</a>
+          <p>Social Media</p>
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">TikTok</a>
         </div>
         <div class="footerLink">
-            <p>About Us</p>
-            <a href="#">Our story</a>
-            <a href="#">Designer</a>
-            <a href="#">Craftmanship</a>
-            <a href="#">Sustainability</a>
+          <p>About Us</p>
+          <a href="#">Our story</a>
+          <a href="#">Designer</a>
+          <a href="#">Craftmanship</a>
+          <a href="#">Sustainability</a>
         </div>
       </div>
     </footer>
-    <script src="script.js"></script>
   </body>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script src="script.js"></script>
 </html>

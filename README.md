@@ -1,4 +1,4 @@
-# SkwnFrontendDev-1-GohandSilitonga
+# Dekoor
 Elevate your living space with Dekoor's high-quality, stylish furniture pieces. Our minimalist designs combine form and function, ensuring that you get the best of both worlds.
 
 ## Preview
